@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<style>
+		table { border-collapse: collapse; }
+		table, tr, th, td { border: 1px solid black; }
+		th, td { padding: 2px; }
+		th { width: 100px; text-align: left; }
+
+		.w100 { width: 100px; }
+		.w90 { width: 90px; }
+		.h25 { height: 25px; }
+
+		.bd_none, 
+		.bd_none > tr,
+		.bd_none > tr > td {
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<h2>Таблица номер 1</h2>
+	<table>
+		<tr>
+			<th>Столбец 1</th>
+			<th>Столбец 2</th>
+			<th>Столбец 3</th>
+			<th>Столбец 4</th>
+			<th>Столбец 5</th>
+			<th>Столбец 6</th>
+			<th>Столбец 7</th>
+			<th>Столбец 8</th>
+			<th>Столбец 9</th>
+			<th>Столбец 10</th>
+		</tr>
+		<tr>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+		</tr>
+		<tr>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+		</tr>
+		<tr>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+			<td>Данные</td>
+		</tr>
+	</table>
+
+	<br><br>
+	
+	<h2>Таблица номер 2</h2>
+	<table>
+		<tr>
+			<td>
+				<table class="bd_none">
+					<tr class="bd_none">
+						<td class="h25 bd_none" colspan="3"></td>
+					</tr>
+					<tr class="bd_none">
+						<td class="w100 bd_none"></td>
+						<td class="bd_none">
+							<table>
+								<tr>
+									<td class="w90">Столбец 1</td>
+									<td class="w90">Столбец 2</td>
+									<td class="w90">Столбец 3</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>																
+							</table>
+						</td>
+						<td class="w100 bd_none"></td>
+					</tr>
+					<tr class="bd_none">
+						<td class="h25 bd_none" colspan="3"></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table class="bd_none">
+					<tr class="bd_none">
+						<td class="h25 bd_none" colspan="3"></td>
+					</tr>
+					<tr class="bd_none">
+						<td class="w100 bd_none"></td>
+						<td class="bd_none">
+							<table>
+								<tr>
+									<td class="w90">Столбец 1</td>
+									<td class="w90">Столбец 2</td>
+									<td class="w90">Столбец 3</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>
+								<tr>
+									<td>Данные</td>
+									<td>Данные</td>
+									<td>Данные</td>
+								</tr>																
+							</table>
+						</td>
+						<td class="w100 bd_none"></td>
+					</tr>
+					<tr class="bd_none">
+						<td class="h25 bd_none" colspan="3"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<br><br>
+
+	<h2>Таблица номер 3</h2>
+	<form action="#" methdo="post">
+		<input type="text" placeholder="Имя"><br>
+		<input type="email" placeholder="E-mail"><br>
+		<input type="tel" placeholder="Телефон"><br>
+		<input type="radio" name="one" checked> One
+		<input type="radio" name="one"> Two
+		<br>
+		<input type="checkbox" name="ch_1" checked> Check one
+		<input type="checkbox" name="ch_1"> Check two
+		<br>
+		<textarea cols="50" rows="10" placeholder="Поле большого сообщения"></textarea><br>
+		<button type="submit">Отправить</button>
+
+	</form>
+</body>
+</html>
